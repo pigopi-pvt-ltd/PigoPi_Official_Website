@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.stroke-dasharray-\[283\] {
+    stroke-dasharray: 283;
+  }
+  .stroke-dashoffset-\[283\] {
+    stroke-dashoffset: 283;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
