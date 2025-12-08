@@ -44,15 +44,18 @@ const ProjectCards = () => {
       {/* Cards Row */}
       <div
         className="
-          flex flex-col md:flex-row 
-          justify-center items-center 
-          gap-10 md:gap-14
-        "
+    grid 
+    grid-cols-1 
+    sm:grid-cols-2 
+    lg:grid-cols-3
+    justify-items-center
+    gap-10 md:gap-14
+  "
       >
         <TiltedCard
           imageSrc={TaskPro}
-          captionText="Task Pro"
-          description="TaskPro is an all-in-one task management and collaboration platform that helps teams plan, track, and execute work with 3× more speed and clarity."
+          captionText="TaskPro"
+          description="A powerful task management tool that helps teams plan and execute work 3× faster."
           glowColor="rgba(10, 132, 255, 0.35)"
           shadowColor="rgba(10, 132, 255, 0.35)"
           url="https://flow.arekiv.com/"

@@ -11,14 +11,13 @@ export default function TiltedCard({
   imageSrc,
   altText = "Tilted card image",
   captionText = "",
-  
+
   glowColor = "rgba(0,200,150,0.25)",
   shadowColor = "rgba(0,255,170,0.4)",
   scaleOnHover = 1.1,
   description,
   rotateAmplitude = 14,
   url = "#",
- 
 }) {
   const ref = useRef(null);
   const x = useMotionValue(0);
@@ -82,15 +81,14 @@ export default function TiltedCard({
     group
 
     /* RESPONSIVE WIDTH + HEIGHT */
-    w-[90%] 
-    sm:w-[380px] 
-    md:w-[420px] 
-    lg:w-[500px]
+    /* RESPONSIVE WIDTH */
+w-[90%]
+sm:w-[300px]
+md:w-[320px]
+lg:w-[350px]
+xl:w-[380px]
+2xl:w-[420px]
 
-    min-h-[260px] 
-    sm:min-h-[300px] 
-    md:min-h-[330px] 
-    lg:min-h-[360px]
   "
       style={{
         rotateX,
