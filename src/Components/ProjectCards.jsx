@@ -58,7 +58,6 @@ const ProjectCards = () => {
           description="A powerful task management tool that helps teams plan and execute work 3× faster."
           glowColor="rgba(10, 132, 255, 0.35)"
           shadowColor="rgba(10, 132, 255, 0.35)"
-          url="https://flow.arekiv.com/"
         />
 
         <TiltedCard
