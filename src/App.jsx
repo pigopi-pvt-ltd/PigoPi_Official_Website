@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import WhatsAppBubble from "./Components/WhatsAppBubble";
 import Footer from "./HomePageSectionComponents/Footer";
 import ScrollToHash from "./Components/ScrollToHash";
+import NewYearPopup from "./HomePageSectionComponents/NewYearPopup";
 // import CustomCursor from './Components/CustomCursor';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
     <>
       <ScrollToHash />
       <Navbar />
+      <NewYearPopup />
       {/* <CustomCursor /> */}
       <Outlet />
       <Footer />
