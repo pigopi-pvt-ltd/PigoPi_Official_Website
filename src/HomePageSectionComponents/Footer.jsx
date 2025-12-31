@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import logo1 from "../assets/logo1.png";
+
 const Footer = () => {
   return (
     <>
@@ -5,30 +8,65 @@ const Footer = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12">
             <div class="col-span-2 lg:col-span-2">
-              <div class="flex items-center gap-2 mb-6">
-                <div class="w-8 h-8 rounded-lg bg-slate-900 dark:bg-white flex items-center justify-center text-white dark:text-slate-900 font-bold text-sm">
+              <div class="flex  ">
+                {/* <div class="w-8 h-8 rounded-lg bg-slate-900 dark:bg-white flex items-center justify-center text-white dark:text-slate-900 font-bold text-sm">
                   P
                 </div>
                 <span class="font-display font-bold text-xl text-slate-900 dark:text-white">
                   PigoPi
-                </span>
+                </span> */}
+                <img src={logo1} alt="logo" className="w-24 h-22" />
               </div>
-              <p class="text-slate-600 dark:text-slate-400 text-sm max-w-xs leading-relaxed mb-6">
+              <p class="text-slate-600 pl-4 dark:text-slate-400 text-sm max-w-xs leading-relaxed mb-6">
                 Empowering businesses with cutting-edge digital solutions. We
                 build the future of web and mobile experiences.
               </p>
-              <div class="flex space-x-4">
+              <div class="flex space-x-4 pl-4">
                 <a
                   class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
-                  href="#"
+                  href="/"
                 >
                   <i class="material-symbols-outlined text-lg">public</i>
                 </a>
+
                 <a
                   class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
-                  href="#"
+                  href="https://www.linkedin.com/company/pigopi-private-limited/"
+                  target="_blank"
                 >
-                  <i class="material-symbols-outlined text-lg">work</i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a
+                  class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
+                  href="https://www.instagram.com/pigopi_pvt_ltd?igsh=MXQ0cjl4bTBnbDc1Mg=="
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a
+                  class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
+                  href="https://www.facebook.com/profile.php?id=61576543783204&sk=about"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                {/* <a
+                  class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
+                  href="https://twitter.com/yourprofile"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a> */}
+
+                <a
+                  class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition"
+                  href="https://youtube.com/@pigopi_314?si=i7dw1qqsGdXBu5Oe"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-youtube"></i>
                 </a>
               </div>
             </div>
@@ -77,27 +115,27 @@ const Footer = () => {
               </h4>
               <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
                 <li>
-                  <a class="hover:text-primary transition block" href="/about">
+                  <Link class="hover:text-primary transition block" to="/about">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a class="hover:text-primary transition block" href="#">
                     Careers
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a class="hover:text-primary transition block" href="#">
                     Blog
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a
+                  <Link
                     class="hover:text-primary transition block"
-                    href="#contact"
+                    to={"/#contact"}
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,20 +145,26 @@ const Footer = () => {
               </h4>
               <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
                 <li>
-                  <a class="hover:text-primary transition block" href="#">
+                  <Link
+                    class="hover:text-primary transition block"
+                    to="/privacy-policy"
+                  >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="hover:text-primary transition block" href="#">
+                  <Link
+                    class="hover:text-primary transition block"
+                    to="/terms-conditions"
+                  >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
-                <li>
+                {/* <li>
                   <a class="hover:text-primary transition block" href="#">
                     Cookie Policy
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

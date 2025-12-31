@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 export default function ContactAndFooter() {
   // Variants for the staggered contact items
+
   const listVariants = {
     hidden: { opacity: 0, x: -20 },
     visible: {
@@ -79,7 +80,7 @@ export default function ContactAndFooter() {
                     <p className="text-xs text-slate-400 uppercase tracking-wide">
                       Call us
                     </p>
-                    <p className="font-semibold text-lg">+1 (555) 123-4567</p>
+                    <p className="font-semibold text-lg">+91 (931) 004 3674</p>
                   </div>
                 </motion.div>
 

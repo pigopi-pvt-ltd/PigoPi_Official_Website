@@ -168,7 +168,7 @@ export default function TechSection() {
 
       <div className="relative z-10 container mx-auto px-6 pt-20 h-full flex flex-col items-start">
         <h2 className="text-5xl font-bold text-white mb-2">
-          Tech Stck <span className="text-purple-500">We Use</span>
+          Tech Stack <span className="text-purple-500">We Use</span>
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-transparent mb-10" />
 

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const StartJourneySection = () => {
+  const navigate = useNavigate();
   return (
     <section className="py-24 bg-gradient-to-br from-[#101922] to-[#1e293b] text-white overflow-hidden">
       <div className="container mx-auto px-4 md:px-10 lg:px-20 max-w-4xl text-center">
@@ -29,6 +31,9 @@ const StartJourneySection = () => {
           <motion.button
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              navigate("/#contact");
+            }}
             className="h-14 px-10 bg-primary hover:bg-blue-600 transition-all duration-200 text-white text-lg font-bold rounded-lg shadow-xl hover:shadow-2xl"
           >
             Get a Free Quote
@@ -38,6 +43,9 @@ const StartJourneySection = () => {
             whileHover={{
               scale: 1.05,
               backgroundColor: "rgba(255, 255, 255, 0.1)",
+            }}
+            onClick={() => {
+              navigate("/#contact");
             }}
             whileTap={{ scale: 0.95 }}
             className="h-14 px-10 bg-transparent border border-white/20 transition-colors text-white text-lg font-bold rounded-lg"

@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
   // Animation Variants
+  const navigate = useNavigate();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -62,6 +64,9 @@ const AboutSection = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => {
+                  navigate("/#contact");
+                }}
                 className="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:opacity-90 transition shadow-lg"
               >
                 Start Project

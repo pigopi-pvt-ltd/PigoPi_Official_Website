@@ -1,29 +1,31 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function SelectedWorks() {
   const works = [
     {
       tag: "FINTECH",
-      title: "Finance Flow App",
+      title: "Flow App",
       desc: "A complete digital banking solution with real-time analytics and transfer capabilities.",
       bg: "from-emerald-200 to-emerald-400",
       textColor: "text-emerald-950", // Added for better contrast on light bg
     },
     {
-      tag: "E-COMMERCE",
-      title: "Shopify Plus",
+      tag: "Management",
+      title: "Task Pro",
       desc: "Custom theme development and performance optimization.",
       bg: "from-teal-700 to-emerald-900",
       textColor: "text-white",
     },
     {
-      tag: "HEALTHCARE",
-      title: "MedTech Dashboard",
+      tag: "POS",
+      title: "Bhojan Sathi",
       desc: "Data-driven healthcare monitoring platform.",
       bg: "from-gray-200 to-gray-400",
       textColor: "text-slate-900", // Added for better contrast on light bg
     },
   ];
+  const navigate = useNavigate();
 
   return (
     <section className="max-w-6xl mx-auto px-6 my-12">
@@ -34,7 +36,7 @@ export default function SelectedWorks() {
           viewport={{ amount: 0.5 }}
           className="text-3xl font-semibold"
         >
-          Selected Works
+          Our Products
         </motion.h2>
       </div>
 
@@ -82,6 +84,9 @@ export default function SelectedWorks() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          onClick={() => {
+            navigate("/#contact");
+          }}
           className="px-8 py-4 rounded-full bg-purple-600 hover:bg-purple-500 text-white font-medium shadow-lg shadow-purple-500/20 transition-colors"
         >
           Start a conversation
