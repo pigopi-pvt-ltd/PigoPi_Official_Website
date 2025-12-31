@@ -105,7 +105,7 @@ const AboutSection = () => {
                   rocket_launch
                 </span>
                 <div>
-                  <p className="text-3xl font-bold">150+</p>
+                  <p className="text-3xl font-bold">10+</p>
                   <p className="text-sm opacity-90">Projects Launched</p>
                 </div>
               </motion.div>

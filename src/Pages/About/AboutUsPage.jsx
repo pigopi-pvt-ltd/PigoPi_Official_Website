@@ -8,7 +8,7 @@ const AboutUsPage = () => {
       <div className="bg-slate-50 mt-7 text-slate-900 font-sans transition-colors duration-300">
         <AboutUsHero />
         <Mission />
-        <Journey />
+        {/* <Journey /> */}
       </div>
     </>
   );

@@ -43,7 +43,7 @@ const Mission = () => {
                 whileHover={{ scale: 1.05 }}
                 className="flex flex-col border-l-4 border-primary pl-4"
               >
-                <span className="text-3xl font-bold text-slate-900">5+</span>
+                <span className="text-3xl font-bold text-slate-900">3+</span>
                 <span className="text-sm text-slate-500 font-medium uppercase tracking-wide">
                   Years of Excellence
                 </span>
@@ -52,7 +52,7 @@ const Mission = () => {
                 whileHover={{ scale: 1.05 }}
                 className="flex flex-col border-l-4 border-secondary pl-4"
               >
-                <span className="text-3xl font-bold text-slate-900">150+</span>
+                <span className="text-3xl font-bold text-slate-900">10+</span>
                 <span className="text-sm text-slate-500 font-medium uppercase tracking-wide">
                   Projects Delivered
                 </span>

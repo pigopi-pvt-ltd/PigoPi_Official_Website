@@ -65,38 +65,38 @@ const servicesData = [
     isReversed: true,
     bgColor: "bg-slate-50",
   },
-  {
-    title: "Cloud Solutions",
-    icon: "cloud_sync",
-    description:
-      "Modernize your infrastructure with our cloud engineering services. Whether you are migrating to the cloud or optimizing existing architecture, we help you leverage the power of AWS, Azure, and Google Cloud.",
-    benefits: [
-      "Scalable Infrastructure",
-      "Cost Optimization",
-      "CI/CD Pipeline Setup",
-      "24/7 Monitoring & Support",
-    ],
-    cta: "Consult on Cloud",
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2344&auto=format&fit=crop",
-    isReversed: false,
-    bgColor: "bg-white",
-  },
-  {
-    title: "Digital Marketing",
-    icon: "campaign",
-    description:
-      "Building a great product is only half the battle. Our digital marketing strategies are data-driven and results-oriented, specializing in SEO, PPC, and content strategy to build long-term brand authority.",
-    benefits: [
-      "SEO Optimization",
-      "Pay-Per-Click Management",
-      "Social Media Growth",
-      "Analytics & Reporting",
-    ],
-    cta: "Grow Your Traffic",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
-    isReversed: true,
-    bgColor: "bg-slate-50",
-  },
+  // {
+  //   title: "Cloud Solutions",
+  //   icon: "cloud_sync",
+  //   description:
+  //     "Modernize your infrastructure with our cloud engineering services. Whether you are migrating to the cloud or optimizing existing architecture, we help you leverage the power of AWS, Azure, and Google Cloud.",
+  //   benefits: [
+  //     "Scalable Infrastructure",
+  //     "Cost Optimization",
+  //     "CI/CD Pipeline Setup",
+  //     "24/7 Monitoring & Support",
+  //   ],
+  //   cta: "Consult on Cloud",
+  //   img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2344&auto=format&fit=crop",
+  //   isReversed: false,
+  //   bgColor: "bg-white",
+  // },
+  // {
+  //   title: "Digital Marketing",
+  //   icon: "campaign",
+  //   description:
+  //     "Building a great product is only half the battle. Our digital marketing strategies are data-driven and results-oriented, specializing in SEO, PPC, and content strategy to build long-term brand authority.",
+  //   benefits: [
+  //     "SEO Optimization",
+  //     "Pay-Per-Click Management",
+  //     "Social Media Growth",
+  //     "Analytics & Reporting",
+  //   ],
+  //   cta: "Grow Your Traffic",
+  //   img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+  //   isReversed: true,
+  //   bgColor: "bg-slate-50",
+  // },
 ];
 
 const ServiceBlock = ({ service }) => {

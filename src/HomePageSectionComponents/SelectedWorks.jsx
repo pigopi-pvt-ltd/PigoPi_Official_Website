@@ -4,23 +4,23 @@ import { useNavigate } from "react-router-dom";
 export default function SelectedWorks() {
   const works = [
     {
-      tag: "FINTECH",
+      tag: "Marketing + Automation",
       title: "Flow App",
-      desc: "A complete digital banking solution with real-time analytics and transfer capabilities.",
+      desc: "WhatsApp marketing automation tool that helps businesses scale their communication 3x faster.",
       bg: "from-emerald-200 to-emerald-400",
       textColor: "text-emerald-950", // Added for better contrast on light bg
     },
     {
       tag: "Management",
       title: "Task Pro",
-      desc: "Custom theme development and performance optimization.",
+      desc: "A powerful task management tool that helps teams plan and execute work 3× faster.",
       bg: "from-teal-700 to-emerald-900",
       textColor: "text-white",
     },
     {
       tag: "POS",
-      title: "Bhojan Sathi",
-      desc: "Data-driven healthcare monitoring platform.",
+      title: "BhojanSaathi",
+      desc: "mart POS for restaurants. Manage billing, orders, inventory, and digital receipts via WhatsApp.",
       bg: "from-gray-200 to-gray-400",
       textColor: "text-slate-900", // Added for better contrast on light bg
     },

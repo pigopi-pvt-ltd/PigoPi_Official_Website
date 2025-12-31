@@ -170,7 +170,7 @@ const Footer = () => {
           </div>
           <div class="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-slate-500 text-sm text-center md:text-left">
-              © 2026 PigoPi PVT. LTD. All rights reserved.
+              © 2026 PigoPi Pvt. Ltd. All rights reserved.
             </p>
           </div>
         </div>
