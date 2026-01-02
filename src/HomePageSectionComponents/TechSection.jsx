@@ -36,7 +36,7 @@ const technologies = [
   },
   {
     name: "Next.js",
-    icon: "https://cdn.simpleicons.org/nextdotjs/white",
+    icon: "https://cdn.simpleicons.org/nextdotjs/eee",
     color: "#ffffff",
   },
   // {
